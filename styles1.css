@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.music-player {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+.album-cover img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.song-info h2 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.song-info p {
+  color: #888;
+  margin: 0;
+}
+
+.controls button {
+  background-color: #3f51b5;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  color: #fff;
+}
+
+.play-btn::before {
+  content: "\25B6";
+}
+
+.pause-btn::before {
+  content: "\2759\2759";
+}
+
+.prev-btn::before {
+  content: "\25C0";
+}
+
+.next-btn::before {
+  content: "\25B6";
+}
